@@ -149,3 +149,55 @@ button {
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/* ------------------contact section------------------ */
+
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.sign-container {
+    border: 2px solid rgb(200, 197, 197);
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 950px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+}
+.sign-container h3 {
+    color: #F9FAF8;
+}
+
+.sign {
+    border: 2px solid #F9FAF8;
+    margin: 5px;
+}
+
+.sign:hover{
+    border: 2px solid wheat;
+
+}
+footer {
+    background: #1a1a1b ;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
